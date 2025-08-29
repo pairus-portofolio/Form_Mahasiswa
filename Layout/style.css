@@ -39,3 +39,46 @@ button {
 button:hover {
   background-color: deepskyblue;
 }
+
+@media (max-width: 768px) {
+  header {
+    font-size: 16px;
+  }
+
+  .form-container {
+    width: 90%;
+    padding: 15px;
+  }
+
+  input,
+  select {
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+/* HP kecil (<= 480px) */
+@media (max-width: 480px) {
+  header {
+    font-size: 14px;
+  }
+
+  .form-container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  input,
+  select {
+    width: 100%;
+    padding: 8px;
+  }
+
+  button {
+    width: 100%;
+    padding: 8px;
+  }
+}
